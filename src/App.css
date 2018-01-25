@@ -1,0 +1,146 @@
+Body{
+  font-family: 'Comfortaa', cursive;
+}
+/* BODY */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* SEARCH */
+.search-area {
+  background-color: #eee;
+  min-width: 55%;
+  /* text-align: center; */
+}
+
+.box {
+  background-color: #02bd7c;
+  width: 90%;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.box__search-bar {
+  text-align: center;
+  padding-top: 25px;
+  height: 90px;
+  border-radius: 15px;
+}
+
+.box--search-bar {
+  height: 60px;
+  width: 80%;
+  border-radius: 15px;
+}
+/*RESULTS*/
+.box--img__search {
+  height: 300px;
+  border-radius: 15px;
+}
+.box__search-content{
+  text-align: center;
+}
+/* EXERCISE */
+.exercise-area {
+  background-color: #eee;
+  min-width: 45%;
+  /*text-align: center; */
+}
+
+.box__exercise {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  margin-left: 35px;
+  border-radius: 15px;
+}
+
+
+/* NAV */
+nav {
+  display: block;
+  width: 100%;
+  background-color: #555;
+  padding: 10px 0;
+}
+
+nav a {
+  text-align: right;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #4ff;
+}
+
+nav a:hover {
+  color: #7f4dd2;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #555;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 15px;
+}
+
+
+/* BUTTONS */
+.btn-primary {
+  color: #fff;
+  background-color: #11f;
+  border-radius: 2px;
+  border: none;
+  padding: 3px;
+}
+
+.btn-primary:hover {
+  background-color: #77f;
+}
+
+/* ALERTS */
+.error {
+  background-color: pink;
+  color: red;
+  border: 1px solid red;
+  border-radius: 2px;
+  padding: 10px 30px;
+  width: 75%;
+  margin: 10px auto;
+}
+
+.success {
+  background-color: #ceffce;
+  color: green;
+  border: 1px solid green;
+  border-radius: 2px;
+  padding: 10px 30px;
+  width: 75%;
+  margin: 10px auto;
+}
+
+.no-flash {
+  visibility: hidden;
+  padding: 10px 30px;
+  width: 75%;
+  margin: 10px auto;
+}
+
+.x-button {
+  background-color: red;
+  color: white;
+  border-radius: 2px;
+  float: right;
+}
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+}
